@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styleth.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="container">
+      <header id="header">
+         <ul id="nav">
+            <li class="menu">Home</li>
+            <li class="menu">HTML</li>
+            <li class="menu">CSS</li>
+            <li class="menu">About</li>
+         </ul>
+      </header>
+      <div class="content">
+         <aside id="left">
+            <ul id="nav-left">
+               <li class="menu">Mục 1</li>
+               <li class="menu">Mục 2</li>
+               <li class="menu">Mục 3</li>
+               <li class="menu">Mục 5</li>
+               <li class="menu">Mục 6</li>
+               <li class="menu">Mục 7</li>
+            </ul>
+         </aside>
+         <section>
+            <div class="wrap-form">
+               <h1>Đăng ký thông tin</h1>
+               <form action="#">
+                  <label for="user-name">User name:</label>
+                  <input type="text" id="user-name" placeholder="User name"> <br>
+                  <label for="pass">Password:</label>
+                  <input type="password" id="pass" placeholder="Password"> <br>
+                  <label for="email">Email:</label>
+                  <input type="text" id="email" placeholder="Email"> <br>
+                  <label for="dob">Ngày sinh: </label>
+                  <input type="date" name="time" id="dob"> <br>
+                  <label for="">Giới tính:</label>
+                  Nam: <input type="radio" name="gender" id="">
+                  Nữ: <input type="radio" name="gender" id="">
+                  <br>
+                  <label for="city">Tỉnh/Thành phố:</label>
+                  <select name="tinh" id="city">
+                     <option value="">Thanh hóa</option>
+                     <option value="">Hà nội</option>
+                  </select>
+                  <br>
+                  <label for="des">Mô tả bản thân:</label> <br>
+                  <textarea name="description" id="des" cols="50" rows="15" style="overflow-y: scroll;"></textarea> <br>
+                  <input class="btn" type="submit" value="submit">
+                  <input class="btn" type="reset" value="reset">
+               </form>
+            </div>
+         </section>
+         <div class="flugin">
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120119.4972721097!2d105.72084310450161!3d19.80886014339358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3136f7fe237e2277%3A0xa13832367bfc213a!2zVHAuIFRoYW5oIEhvw6EsIFRoYW5oIEhvw6EsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1631937021538!5m2!1svi!2s"
+               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe
+               src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fphonggiaovu&tabs=timeline&width=400&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+               width="500" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+               allowfullscreen="true"
+               allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+         </div>
+      </div>
+      <footer id="footer">
+         <ul id="nav">
+            <li class="menu">Contact us</li>
+            <li class="menu">Comments</li>
+            <li class="menu">Information</li>
+            <li class="menu">Helps</li>
+         </ul>
+      </footer>
+   </div>
+
+</body>
+
+</html>
